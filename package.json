@@ -22,7 +22,10 @@
     "url": "https://github.com/fallcoin/anydoor/issues"
   },
   "homepage": "https://github.com/fallcoin/anydoor#readme",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "handlebars": "^4.7.3"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
