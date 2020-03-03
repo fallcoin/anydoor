@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Node.js Static Web Server",
   "main": "index.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
@@ -24,7 +27,8 @@
   "homepage": "https://github.com/fallcoin/anydoor#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "handlebars": "^4.7.3"
+    "handlebars": "^4.7.3",
+    "yargs": "^15.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
